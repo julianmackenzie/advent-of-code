@@ -42,7 +42,6 @@ int main() {
 
             // If Up is safe
             if (y>0) {
-                //check up
                 numAdjacent += (cafeteria[y-1][x] == '@');
                 if (x>0) {
                     numAdjacent += (cafeteria[y-1][x-1] == '@');
