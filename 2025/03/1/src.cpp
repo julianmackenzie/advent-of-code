@@ -6,12 +6,14 @@
 using namespace std;
 
 
+/*
 void swap(char &first, char &second) {
     int temp = first;
     first = second;
     second = temp;
     return;
 }
+*/
 
 
 int main() {
